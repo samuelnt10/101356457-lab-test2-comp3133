@@ -1,0 +1,37 @@
+<div *ngIf="mission">
+	<div class="form-container">
+		<form>
+			<legend>Mission Details</legend>
+
+			<p class="mission-info">
+				<strong>Mission Name:</strong> <span>{{ mission.mission_name }}</span>
+			</p>
+			<p class="mission-info">
+				<strong>Launch Year:</strong> <span>{{ mission.launch_year }}</span>
+			</p>
+			<p class="mission-info">
+				<strong>Rocket Name:</strong>
+				<span>{{ mission.rocket.rocket_name }}</span>
+			</p>
+			<p class="mission-info">
+				<strong>Rocket Type:</strong>
+				<span>{{ mission.rocket.rocket_type }}</span>
+			</p>
+			<p class="mission-info">
+				<strong>Launch Success:</strong>
+				<span>{{ mission.launch_success }}</span>
+			</p>
+			<p class="mission-info">
+				<strong>Launch Site Name:</strong>
+				<span>{{ mission.launch_site.site_name }}</span>
+			</p>
+			<p class="mission-info">
+				<strong>Launch Site Name Long:</strong>
+				<span>{{ mission.launch_site.site_name_long }}</span>
+			</p>
+			<p class="mission-info">
+				<strong>Details:</strong> <span>{{ mission.details }}</span>
+			</p>
+		</form>
+	</div>
+</div>

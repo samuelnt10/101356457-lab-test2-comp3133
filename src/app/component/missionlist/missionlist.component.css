@@ -1,0 +1,45 @@
+.card {
+	margin: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	width: 50rem;
+	display: flex;
+
+	background-color: #787878;
+}
+
+.mission-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input-container .search_input {
+	padding: 0.5rem;
+	border: 1px line pink;
+}
+
+.card img {
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+}
+.btn-primary {
+	border-radius: 50px;
+	color: #787878;
+	background-color: pink;
+}
+
+.card-text {
+	margin-bottom: 5px;
+}
+
+.input-container {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
